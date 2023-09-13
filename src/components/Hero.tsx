@@ -5,16 +5,16 @@ import { YellowLine } from "./ui/icons/YellowLine";
 
 const Hero = () => {
 	return (
-		<section className="relative flex pt-44 justify-center h-[85dvh] bg-[#F5F5F5] px-[4.5rem] ">
+		<section className="relative flex pt-12 leading-3  md:pt-44 justify-center h-[85dvh] bg-[#F5F5F5] px-8 md:px-[4.5rem] ">
 			<div className="flex flex-col gap-y-[4.5rem] ">
 				<div>
-					<h1 className="mb-6 tracking-tight text-7xl font-header">
+					<h1 className="mb-6 text-6xl tracking-tight md:text-7xl font-header">
 						Build your dream career
 					</h1>
-					<h3 className="text-5xl font-header-bold">
+					<h3 className="text-4xl md:text-5xl font-header-bold">
 						Connect to <span className=" text-secondary">jobs</span>
 					</h3>
-					<div className="hidden md:block">
+					<div className="hidden lg:block">
 						<i className="absolute animate-bounce-slow top-[3.19rem] right-[16.56rem] ">
 							<RedLine />
 						</i>

@@ -9,7 +9,7 @@ import MobileNavbar from "./MobileNavbar";
 
 const Navbar = () => {
 	return (
-		<nav className=" h-[4.5rem] px-[4.5rem] bg-white flex justify-between items-center">
+		<nav className=" h-[4.875rem] px-[4.5rem] bg-white flex justify-between items-center">
 			<Link to={"/"}>
 				<Logo />
 			</Link>

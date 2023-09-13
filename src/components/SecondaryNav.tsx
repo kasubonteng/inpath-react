@@ -4,14 +4,17 @@ import { Logo } from "./ui/icons/Logo";
 
 const SecondaryNav = () => {
 	return (
-		<div className="fixed top-0 left-0 flex items-center w-full p-3 px-10 bg-white border ">
-			<Link to={"/"} className="flex flex-1 p-3 gap-x-2">
+		<div className="fixed top-0 flex items-center justify-center w-full bg-white border p-7">
+			<Link to={"/"} className="flex p-3 mr-auto gap-x-2">
 				<ArrowLeft />
 				Back
 			</Link>
-			<Link to={"/"} className="flex-1">
-				<Logo />
-			</Link>
+
+			<div className="flex items-center justify-center mr-auto ">
+				<Link to={"/"} className=" w-[4.875rem] h-[1.5rem]">
+					<Logo />
+				</Link>
+			</div>
 		</div>
 	);
 };

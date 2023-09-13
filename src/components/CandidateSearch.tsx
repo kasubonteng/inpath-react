@@ -4,21 +4,24 @@ import Search from "./ui/icons/Search";
 
 const CandidateSearch = () => {
 	return (
-		<div className="p-5 bg-white rounded-full ">
+		<div className="p-1 bg-white rounded-full ">
 			<div className="flex items-center justify-center gap-x-3">
 				<>
-					<div className="w-6 h-6 ">
+					<div className="p-2">
 						<Search />
 					</div>
 					<input
-						className="h-[1.65rem] w-full ring-0 outline-none"
+						className="h-[3rem] w-full ring-0 outline-none"
 						type="text"
-						placeholder='Try Civil "Engineer"'
+						placeholder='Try "Civil Engineer"'
 					/>
 				</>
 				<>
-					<button type="button" className="flex border-l lg:space-x-14 group ">
-						<span className="ml-4 ">Jobs</span>
+					<button
+						type="button"
+						className="flex text-sm border-l md:text-base lg:space-x-14 group "
+					>
+						<span className="ml-2 md:ml-4 ">Jobs</span>
 						<span className="transition group-hover:scale-125">
 							<ChevronDown />
 						</span>

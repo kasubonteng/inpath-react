@@ -8,7 +8,7 @@ export const Tabs = () => {
 		setActive(tab);
 	};
 	return (
-		<div className="flex items-center justify-center px-1 py-2 ">
+		<div className="flex items-center justify-center px-1 py-2 text-xs md:text-base ">
 			<div className=" bg-[#F7F7F7] font-light flex p-1 rounded-sm gap-x-2 items-center">
 				<div
 					className={cn(

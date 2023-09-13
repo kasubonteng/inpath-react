@@ -8,7 +8,7 @@ const SignUp = () => {
 				<SecondaryNav />
 			</div>
 
-			<section className="flex flex-col items-center justify-center px-10 mt-28 ">
+			<section className="flex flex-col items-center justify-center px-10 mt-[7.5rem] ">
 				<div>
 					<div className="flex flex-col gap-y-4">
 						<span className="text-2xl font-bold">Get started.</span>
