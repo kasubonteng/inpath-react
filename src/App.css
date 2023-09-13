@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: Bicyclette-Bold;
+	src: url("./assets/fonts/Bicyclette-Black.ttf");
+}
+
+@font-face {
+	font-family: Bicyclette;
+	src: url("./assets/fonts/Bicyclette-Regular.ttf");
+}
+
+@font-face {
+	font-family: Bicyclette-ExtraBold;
+	src: url("./assets/fonts/Bicyclette-Bold.ttf");
+}
+
+@font-face {
+	font-family: Eudoxus-Medium;
+	src: url("./assets/fonts/EudoxusSans-Regular.ttf");
+}
+
+html,
+body,
+:root {
+	height: 100%;
+	font-size: 16px;
+}
